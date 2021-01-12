@@ -1,0 +1,31 @@
+{
+  "name": "cartas_papai_noel",
+  "version": "1.0.0",
+  "description": "Desenvolvimento de uma API para ler e escrever cartas ao papai Noel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandreTadeuJunior/cartas_papai_noel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandreTadeuJunior/cartas_papai_noel/issues"
+  },
+  "homepage": "https://github.com/AlexandreTadeuJunior/cartas_papai_noel#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}
