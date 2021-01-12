@@ -4,6 +4,7 @@
   "description": "Desenvolvimento de uma API para ler e escrever cartas ao papai Noel",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
