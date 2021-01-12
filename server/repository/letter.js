@@ -4,7 +4,7 @@ let obj = config.dataConfig.MYSQL;
 const Sequelize = require('sequelize');
 
 //Aqui estamos passando os dados para realizar a conexão com o banco de dados
-const sequelize = new Sequelize(obj.database, obj.letter, obj.password, {
+const sequelize = new Sequelize(obj.database, obj.user, obj.password, {
   host: obj.host,
   port: obj.port,
   dialect: 'mysql',
