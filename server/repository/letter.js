@@ -1,5 +1,5 @@
 const config = require('../config/env');
-const letter = require('../Model/letter');
+const letter = require('../model/letter');
 let obj = config.dataConfig.MYSQL;
 const Sequelize = require('sequelize');
 
